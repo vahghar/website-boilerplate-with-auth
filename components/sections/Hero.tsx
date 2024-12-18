@@ -85,7 +85,7 @@ export const HeroHome = () => {
                   </span>
                   <br />
                   <span className="animate-[code-8_12s_infinite]">
-                    ? Set up and deploy "~/project"? [Y/n] y
+                  ? Set up and deploy &quot;~/project&quot;? [Y/n] y
                   </span>
                   <br />
                   <span className="animate-[code-9_12s_infinite]">
