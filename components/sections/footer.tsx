@@ -68,11 +68,6 @@ export const Footer=()=> {
                     Careers
                   </Link>
                 </li>
-                <li>
-                  <Link href="#" className="text-sm text-muted-foreground hover:text-primary">
-                    Financial statements
-                  </Link>
-                </li>
               </ul>
             </div>
 
@@ -91,7 +86,7 @@ export const Footer=()=> {
                 </li>
                 <li>
                   <Link href="#" className="text-sm text-muted-foreground hover:text-primary">
-                    Report a vulnerability
+                    Report
                   </Link>
                 </li>
               </ul>
