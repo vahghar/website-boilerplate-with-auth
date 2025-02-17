@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import React, { useState, useCallback, useMemo } from "react";
+import React, { useState,useMemo } from "react";
 import {
   motion,
   useTransform,
@@ -29,11 +29,6 @@ export const AnimatedTooltip: React.FC<AnimatedTooltipProps> = ({ items }) => {
   // Tooltip animations
   const rotate = useSpring(useTransform(x, [-100, 100], [-45, 45]), springConfig);
   const translateX = useSpring(useTransform(x, [-100, 100], [-50, 50]), springConfig);
-
-  const handleMouseMove = useCallback((event: React.MouseEvent<HTMLImageElement>) => {
-    const halfWidth = event.currentTarget.offsetWidth / 2;
-    x.set(event.nativeEvent.offsetX - halfWidth);
-  }, [x]);
 
   return (
     <>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Code2, Sparkles, Zap } from 'lucide-react';
+import { ArrowRight, Code2, Sparkles} from 'lucide-react';
 
 export const HeroHome = () => {
   return (
